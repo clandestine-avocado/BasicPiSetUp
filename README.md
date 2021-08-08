@@ -11,7 +11,9 @@ Files and Commands to get Raspberry Pi's up and running, common early set up cha
 To change the pi user to junglegeorge, you must login as root user. You cannot change pi while you're logged as pi, of course. To be able to login as root you must enable root.
 Login to pi: Login: pi, password: raspberry
 
-`sudo passwd root`
+```
+sudo passwd root
+```
 
 ## Step 2
 
