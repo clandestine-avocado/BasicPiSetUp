@@ -45,16 +45,80 @@ sudo service ssh restart
 
 ## Step 3
 
+Now logout of the user pi using the command:
+
+```
+logout
+```
+
+Login again into the pi as user `root` with password created in step
+
+
+
+## Step 4
+
+Swap in new name for pi: 
+
+```
+usermod -l kevin pi
+```
+
+
+## Setp 5
+
+Now that user name has been changed, the user's home directory should also be changed to reflect the new login name
+
+
+```
+usermod -m -d /home/kevin kevin
+```
+
+## Setp 6
+
+Rename pi group to the one also named kevin. So you belong to your own group, as pi belong to pi group.
+
+
+```
+groupmod -n kevin pi
+```
+
+
+## Step 7 
+
+Log out of root user and back in as yourself
+
+```
+logout
+```
+
+## Step 8
+
+Change your password!
+
+```
+passwd
+```
+
+Type your new password, then retype/confirm it
 
 ```
 XXX
 ```
 
+
 ```
 XXX
 ```
 
 
+```
+XXX
+```
+
+
+```
+XXX
+```
 
 
 
