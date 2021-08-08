@@ -19,7 +19,9 @@ sudo passwd root
 
 Enable root login on SSH, edit the sshd_config file:
 
-`sudo nano /etc/ssh/sshd_config`
+```
+sudo nano /etc/ssh/sshd_config
+```
 
 
 Add the `PermitRootLogin yes` line so it will look like this:
@@ -37,10 +39,20 @@ PermitRootLogin yes
 
 Restart SSH server to take effect:
 
-`sudo service ssh restart`
-
+```
+sudo service ssh restart
+```
 
 ## Step 3
+
+
+```
+XXX
+```
+
+```
+XXX
+```
 
 
 
